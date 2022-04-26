@@ -12,6 +12,33 @@
 
     <!-- First, create a form tag where our inputs will be nested -->
 
+    <form method="GET">
+      
+      <label for="text">What's Your Name?</label>
+      <input type="text" name="owner-name" placeholder="Enter Name" required=/>
+
+      <label for="text">What's Your Email?</label>
+      <input type="text" name="owner-email" placeholder="Enter Email" required=/>
+
+      <label for="tel">What's Your Phone #?</label>
+      <input id="tel" type="tel" name="phone" placeholder="Enter Phone Number" required=/>
+
+      <label for="message">Tell Us More?</label>
+      <textarea id="message" name="message" placeholder="Enter Message..."></textarea>
+
+      <div id="checkbox">
+        <label for="checkbox">Prefered Company Trip?</label>
+        <input type="checkbox" name="hob-1" value="road" /> Bus Tour<br />
+        <input type="checkbox" name="hob-2" value="land" />Camping<br />
+        <input type="checkbox" name="hob-3" value="sea" />Cruise<br />
+        <input type="checkbox" name="hob-4" value="air" />Flight & Hotel<br />
+      </div>
+
+      
+      <input type="submit" value="Submit!" />
+
+    </form>
+
 
       <!-- Add a label for 'fullname'-->
 
